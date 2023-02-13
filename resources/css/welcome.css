@@ -1,0 +1,96 @@
+body{
+    background-color: #eafbf1;
+}
+
+.logo
+{
+    height: 100px;
+    width:200px;
+}
+
+.menu-bar
+{
+    background: #058135;
+    text-align: center;
+    width: 100%;
+}
+.menu-bar ul
+{
+    display: flex;
+    list-style: none;
+    color: #058135;
+
+}
+
+.menu-bar ul li
+{
+    width: 290px;
+    margin-left: 45px;
+    padding: 14px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.active, .menu-bar ul li:hover
+{
+    background: #2bab0d;
+
+}
+.sub-menu-1
+{
+    display: none;
+    text-align: center;
+
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background: #058135;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    margin: 10px;
+
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+    width: 130px;
+    padding: 10px;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+    color: #b2ff00;
+}
+.two-buttoms
+{
+    background: #058135;
+    text-align: right;
+}
+.two-buttoms ul
+{
+    display: block;
+    list-style: none;
+    color: #2bab0d;
+
+}
+.two-buttoms ul li
+{
+    width: 200px;
+    margin: 10px;
+    padding: 5px;
+
+}
+.two-buttoms ul li a
+{
+    text-decoration: none;
+    color: #fff;
+}
